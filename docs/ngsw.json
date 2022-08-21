@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1661086151974,
+  "index": "/zero-kaata/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/zero-kaata/favicon.ico",
+        "/zero-kaata/index.html",
+        "/zero-kaata/main.8cf908916b36ea5c.js",
+        "/zero-kaata/manifest.webmanifest",
+        "/zero-kaata/polyfills.e79a55aa44b43c72.js",
+        "/zero-kaata/runtime.5d48cf7fdc68c388.js",
+        "/zero-kaata/styles.12a03ae39c315989.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/zero-kaata/assets/icons/icon-128x128.png",
+        "/zero-kaata/assets/icons/icon-144x144.png",
+        "/zero-kaata/assets/icons/icon-152x152.png",
+        "/zero-kaata/assets/icons/icon-192x192.png",
+        "/zero-kaata/assets/icons/icon-384x384.png",
+        "/zero-kaata/assets/icons/icon-512x512.png",
+        "/zero-kaata/assets/icons/icon-72x72.png",
+        "/zero-kaata/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/zero-kaata/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/zero-kaata/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/zero-kaata/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/zero-kaata/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/zero-kaata/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/zero-kaata/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/zero-kaata/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/zero-kaata/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/zero-kaata/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/zero-kaata/index.html": "c93a91bdada099c4536f8f06fa179ebfcd5416e7",
+    "/zero-kaata/main.8cf908916b36ea5c.js": "584e6601eeb9ef2497e697aaae48f6d2ad7d94af",
+    "/zero-kaata/manifest.webmanifest": "898efeedde05cdeb212fbbf6b7aa0e3c4ea54ad7",
+    "/zero-kaata/polyfills.e79a55aa44b43c72.js": "626a0b5e520ef7547f26681a6c8a807e4b3e1d4f",
+    "/zero-kaata/runtime.5d48cf7fdc68c388.js": "acb03dc3d56f5470595840a201a53dcf635441fc",
+    "/zero-kaata/styles.12a03ae39c315989.css": "227189d8597a8f3fc6e3277a602d73cb6e133c34"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
